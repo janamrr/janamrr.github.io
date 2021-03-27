@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+*{
+  font-family:monospace;
+  font-size: 20px;
+;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 30%;
+    height: 30%;
+}
+.facebook{
+  width: 50px;
+  height: 50px;
+}
+.instagram{
+  width: 45px;
+  height:45px;
+}
+@media screen and (max-width: 800px)
+#navbar-content {
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 1000px)
+#navbar-content {
+    background: #000;
+    padding: 20px;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: 0;
+    z-index: 99;
+    position: fixed;
+    /* width: 100vw; */
+    width: calc(100% + 5px);
+    height: 100vh;
+    top: 0;
+    padding-top: 150px;
+}
+@media screen and (max-width: 1000px)
+#navbar-content {
+    padding-right: 22px!important;
+}
+.collapse.show {
+    display: block;
+}
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+body{
+  background-color: #ffffff;
+}
+mb-3{
+  font-size: 180px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+h2.mb-3{
+  padding: 20px;
+}
+.mb-10 .font-size-lg .text-gray-500{
+  font-size: 120px;
+
+  }
+.card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    width: 348px;
+    height: 348px;
+    border-radius: 200px;
+    transition: width 2s, height 2s;
+    transition-duration: 500ms;
+  }
+.card-img-top:hover{
+  width: 400px;
+ height: 400px;
+
+}
+    .pt-lg-4, .py-lg-4 {
+        padding-top: 1.5rem!important;
+        background-color: #FFFF00;
+        border-radius: 60px;
+
+    }
+    .bg-light {
+    background-color: #f5edfa!important;
+    margin: 80px;
+}
+
+.site-header{
+  background-color: #FFFF00;
+}
+.desktop .desktopv{
+  width: 50%;
+}
+
+.brand {
+   background-color: #ffff00;
+    padding: 150px;
+}
+.loly {
+  background-color: #ffff00;
+}
+.koko{
+  width: inherit;
+  height: inherit;
+
+}
